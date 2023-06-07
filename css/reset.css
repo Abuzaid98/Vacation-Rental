@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+*, ::before, ::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+}
+
+:disabled {
+  cursor: not-allowed;
+}
+
+abbr[title] {
+  cursor: help;
+}
+
+iframe {
+  border: none;
+}
